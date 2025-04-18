@@ -5,8 +5,8 @@ def print_number(n):
         return
     else:
         print_number(n-1)
-        # print(n)
-        return n
+        print(n)
+        
 
 n = int(input())
-print(print_number(n))
+print_number(n)
