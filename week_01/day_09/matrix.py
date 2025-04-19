@@ -16,5 +16,6 @@ for i in range(n):
         if i+j==n-1:
             sum2 += matrix[i][(n-i)-1]
 
-result = (sum1-sum2)* -1
+# result = (sum1-sum2)* -1
+result = abs(sum1-sum2)
 print(result)
