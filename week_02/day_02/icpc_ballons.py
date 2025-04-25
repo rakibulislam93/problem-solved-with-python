@@ -1,5 +1,4 @@
 
-
 # time complexity ---- > O(t*n)
 # space complexity -----> O(n)
 t = int(input())
