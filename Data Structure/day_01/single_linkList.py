@@ -14,8 +14,7 @@ a.next = b
 b.next = c
 c.next = d
 
-print(a.data)
-print(a.next.data)
-print(a.next.next.data)
-print(a.next.next.next.data)
-print(a.next.next.next.next) # aikhane None pawa jabe....
+temp = a
+while temp != None:
+    print(temp.data)
+    temp = temp.next
