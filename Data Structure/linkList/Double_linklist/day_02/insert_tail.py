@@ -69,11 +69,7 @@ def print_reverseway(tail):
 
 head = None
 tail = None
-# linklist = list(map(int,input().split()))
-# for value in linklist:
-#     if value == -1:
-#         break
-#     head,tail = insert_at_tail(head,tail,value)
+
 
 while True:
     print('1. Enter the position')
