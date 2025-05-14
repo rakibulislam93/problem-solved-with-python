@@ -17,6 +17,8 @@ c.next = b
 slow = head
 fast = head
 flag = False
+
+# time complexity ---- O(n)
 while fast and fast.next is not None:
     slow = slow.next
     fast = fast.next.next 
